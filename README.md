@@ -1,6 +1,6 @@
 # agedetection
 
-# agedetection by using opencv, CNN(convolutional nural network) and caffemodel.
+# agedetection by using opencv, CNN(convolutional neural network) and caffemodel.
 
 requirement python2.7 and above , opencv ,prototxt file for gpu and hardware ,pbtxt for training, and argparse
 
