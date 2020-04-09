@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 # agedetection
-=======
-# agedetection by using opencv, CNN(convolutional nural network) and caffe.
 
-requirement python2.7 and above , opencv and argparse
+# agedetection by using opencv, CNN(convolutional nural network) and caffemodel.
+
+requirement python2.7 and above , opencv ,prototxt file for gpu and hardware ,pbtxt for training, and argparse
 
 step 1: download or clone in a directory
 
@@ -16,4 +15,4 @@ step 4 : pip install argparse
 step 5 : goto the directory of all downloaded files and open cmd prompt there.
 
 step 6 : python script.py
->>>>>>> 3c0b7c1bfacbf696b38aff5ea530d858127d61a6
+
