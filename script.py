@@ -14,7 +14,7 @@ ageProto="age_deploy.prototxt"
 ageModel="age_net.caffemodel"
 
 MODEL_MEAN_VALUES=(78.4263377603, 87.7689143744, 114.895847746)
-ageList=['(0-2)', '(4-6)', '(8-12)', '(15-20)', '(25-32)', '(38-43)', '(48-53)', '(60-100)']
+ageList=['(0-3)', '(4-7)', '(8-12)', '(12-15)','(15-18)','(19-22)','(23-28)','(29-34)', '(38-43)','(44-48)', '(48-53)','(50-60)', '(60-100)']
 
 faceNet=cv2.dnn.readNet(faceModel,faceProto)
 ageNet=cv2.dnn.readNet(ageModel,ageProto)
